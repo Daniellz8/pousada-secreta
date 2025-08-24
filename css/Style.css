@@ -1,0 +1,303 @@
+/*Geral*/
+
+* { 
+  margin: 0;
+  font-family: Sans-Serif;
+}
+
+
+body {
+  font-family: "Montserrat", serif;
+}
+
+/*Topo*/
+
+.topo-div-pai {
+  width: 100%;
+  height: 55px;
+}
+
+.topo-div-filho {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  height: 55px;
+  position: fixed;
+  border-bottom: solid 1px #6d78f012;
+}
+
+/*links topo*/
+a {
+  text-decoration: none;
+  color: black;
+  margin: 15px;
+  font-size: 23px;
+}
+
+.links-topo a {
+  font-size: 15px;
+}
+
+.links-topo {
+  margin-right: 155px;
+}
+
+.logo-topo {
+  margin-left: 155px;
+}
+
+/*Spam azul*/
+a spam {
+  color: #6D78F0;
+}
+
+/*Home*/
+
+.div-pai-home {
+  width: 100%;
+  height: 730px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../assets/img-fundo.jpg');
+}
+
+.div-container-home {
+  width: 600px;
+  height: 250px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: #1fbda3c5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-filho-home {
+  text-align: center;
+}
+
+.div-filho-home h1 {
+  color: #ffffff;
+  font-size: 60px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px #3d4846d7;
+}
+
+.div-filho-home p {
+  color: #ffffff;
+  font-size: 28px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px #3d4846d7;
+  ;
+  ;
+}
+
+/*Conteudo*/
+
+.div-pai-recicle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 350px;
+}
+
+.div-pai-recicle h2 {
+  padding: 20px 0px;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.div-filho-recicle p {
+  padding: 20px 0px;
+}
+
+.div-pai-imgcx {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-filho-imgcx-1 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 55px;
+  border-bottom: 3px solid #6D78F0;
+}
+
+.div-filho-imgcx-2 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px 55px;
+  border-bottom: 3px solid #6D78F0;
+}
+
+.div-filho-imgcx-3 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 55px;
+  border-bottom: 3px solid #6D78F0;
+}
+
+.div-filho-imgcx img {
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.div-pai-imgcx a {
+  width: 300px;
+  margin: 20px 0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* Rota */
+
+.iframe {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+iframe {
+  background-color: #ff5900;
+  width: 1130px;
+  margin-top: -50px;
+}
+
+/* Sobre */
+
+.sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inf-pai {
+  display: flex;
+  width: 1130px;
+  height: 400px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+  display: flex;
+  width: 520px;
+  height: 120px;
+  text-align: justify;
+}
+
+.card-1 p, .card-2 p, .card-3 p, .card-4 p {
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.card-1 img, .card-2 img, .card-3 img, .card-4 img {
+  width: 120px;
+  height: 120px;
+  margin-right: 20px;
+}
+
+/* footer */
+
+.footer-pai {
+  background-color: #6D78F0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  padding-top: 20px;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.footer-pai img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-filho {
+  display: flex;
+  align-items: center;
+  width: 1130px;
+  height: 100px;
+  border-bottom: solid 1px #ffffff;
+}
+
+.card-1-f {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 100px;
+  margin-right: 40px;
+}
+
+.card-2-f, .card-3-f {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  margin-right: 30px;
+}
+
+.card-4-f {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+}
+
+.cop {
+  display: flex;
+  width: 1130px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* spam */ 
+
+.dan {
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+/* Hover */
+
+a:hover {
+  color: #6D78F0;
+  font-style: italic;
+}
+
+.n:hover {
+  font-style: italic;
+  color: #ffffff
+}
+
+.n {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.dan:hover {
+  color: #ff5900;
+}
